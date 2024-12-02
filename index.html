@@ -19,7 +19,7 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
         }
@@ -27,12 +27,65 @@
             color: #666;
             line-height: 1.6;
         }
+        .features {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        .feature-list li:hover {
+            transform: translateX(10px);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to PP Agent Test</h1>
-        <p>This is a simple HTML page with some basic CSS styling.</p>
+        <p>This is an enhanced HTML page with interactive elements and detailed content.</p>
+        
+        <div class="features">
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>✨ Responsive Design</li>
+                <li>🎨 Modern Styling</li>
+                <li>🚀 Interactive Elements</li>
+                <li>📱 Mobile-Friendly Layout</li>
+            </ul>
+        </div>
+        
+        <section>
+            <h2>About This Project</h2>
+            <p>This project demonstrates the implementation of a simple yet effective web page using HTML and CSS. It includes hover effects, transitions, and a clean, modern design.</p>
+        </section>
+        
+        <div style="text-align: center;">
+            <a href="#" class="button">Learn More</a>
+        </div>
     </div>
 </body>
 </html>
